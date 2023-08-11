@@ -1,0 +1,147 @@
+/* CREAZIONE VARIABILI COLORI */
+
+:root{
+    --grey: rgb(33, 37, 41);
+    --yellow: rgb(254, 209, 54);
+    --red: rgb(220, 57, 45);
+}
+
+/* SELEZIONE FONT */
+
+*{
+    font-family: 'Ysabeau Infant', sans-serif !important;
+}
+
+/* CSS NAVBAR */
+
+.navbar-title{
+    font-family: 'Satisfy', cursive !important;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 100px;
+    color: var(--yellow) !important;
+    transition: 1s;
+}
+
+.nav-item{
+    margin-right: 50px;
+    font-size: larger;
+}
+
+.nav-link:hover{
+    color: var(--yellow) !important;
+}
+
+.navbar{
+    border-top: 2px solid var(--red);
+    transition: 0.7s;
+}
+
+#navContainer{
+    transition: 0.7s;
+}
+
+/* CSS HEADER */
+
+.bg-header{
+    background:linear-gradient(180deg, rgba(0,0,0,0.2) 10%, rgba(195,195,195,0.1) 40%, rgba(0,0,0,0.2) 94%), url(/public/storage/media/bg-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.italic-custom{
+    font-style: italic;
+}
+
+.text-custom{
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 3.25rem;
+    margin-bottom: 100px;
+}
+
+.btn-custom{
+    width: 220px;
+    height: 80px;
+    background-color: var(--yellow);
+    color: white !important;
+    font-weight: 800 !important;
+    font-size: larger !important;
+    text-transform: uppercase;
+}
+
+/* CSS PRIMA SECTION */
+
+.circle-custom{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: var(--yellow);
+}
+
+.imgCircle-custom{
+    width: 70px;
+}
+
+/* CSS SECONDA SECTION CON CARD */
+
+.card-custom{
+    background-color: white;
+    padding:0px 0px 30px 0px;
+}
+
+.imgProduct-custom{
+    width: 415px;
+    height: 300px !important;
+    
+}
+
+/* CSS TERZA SECTION */
+
+.social-img{
+    width: 100px;
+}
+
+/* CSS QUARTA SECTION */
+
+.bg-form{
+    background:linear-gradient(180deg, rgba(0,0,0,0.9) 10%, rgba(195,195,195,0.1) 50%, rgba(0,0,0,0.4) 94%), url(/public/storage/media/bg-form.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+input{
+    width: 450px;
+    height: 38px;
+    border-radius: 10px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.inputImg-custom{
+    width: 450px;
+    height: 32px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: white;
+    text-align: center;
+}
+
+textarea{
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+
+/* CSS FOOTER */
+
+.footer-title{
+    font-family: 'Satisfy', cursive !important;
+    color: var(--yellow);
+}
+
+.pointer-custom{
+    cursor: pointer;
+}
